@@ -37,9 +37,6 @@ android {
         jvmTarget = '1.8'
     }
     dynamicFeatures = [':maps', ':favorite']
-    lintOptions {
-        abortOnError false
-    }
 }
 
 dependencies {
