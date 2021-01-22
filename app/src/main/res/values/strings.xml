@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BioskopMovie</string>
+    <string name="nav_header_title">Bioskop Movie</string>
+    <string name="nav_header_subtitle">Aplication about bioskop &amp; movie</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="something_wrong">Ops... Something Wrong!</string>
+    <string name="text_movie_menu">Movie List</string>
+    <string name="text_favorite_movie_menu">Movie Favorite</string>
+    <string name="text_setting_menu">Setting</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="tanggal">26-11-2012</string>
+    <string name="popularity">7000</string>
+    <string name="submit">BioskopLocation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
