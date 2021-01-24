@@ -23,6 +23,7 @@ buildscript {
     ext.glide_version = "4.11.0"
     ext.leak_canary = "2.4"
     ext.room_version = "2.2.6"
+    ext.shimmer_version = "0.5.0"
     repositories {
         google()
         jcenter()

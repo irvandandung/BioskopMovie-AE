@@ -21,6 +21,9 @@ dependencies {
     implementation "com.google.android.material:material:$material_version"
     implementation "com.github.bumptech.glide:glide:$glide_version"
 
+    //shimmer
+    implementation "com.facebook.shimmer:shimmer:$shimmer_version"
+
     //leak canary
     debugImplementation "com.squareup.leakcanary:leakcanary-android:$leak_canary"
 }

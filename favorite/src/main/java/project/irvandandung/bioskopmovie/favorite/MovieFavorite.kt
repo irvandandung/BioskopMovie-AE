@@ -2,6 +2,7 @@ package project.irvandandung.bioskopmovie.favorite
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_movie_favorite.*
@@ -30,6 +31,7 @@ class MovieFavorite : AppCompatActivity() {
         }
 
         movieFavoritePageViewModel.favoriteMovie.observe(this, { movie ->
+            progress_bar.visibility = View.GONE
             moviePageListAdapter.setData(movie)
         })
 
