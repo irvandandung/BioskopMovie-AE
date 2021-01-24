@@ -1,5 +1,4 @@
 include ':favorite'
-include ':maps'
 include ':core'
 include ':app'
 rootProject.name = "BioskopMovie"

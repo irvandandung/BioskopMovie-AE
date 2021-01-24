@@ -12,8 +12,6 @@ import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import com.google.android.material.navigation.NavigationView
-import com.google.android.material.snackbar.Snackbar
-import kotlinx.android.synthetic.main.content_main.*
 import project.irvandandung.bioskopmovie.movie_page.MoviePageFragment
 import project.irvandandung.bioskopmovie.setting_page.SettingPageFragment
 
@@ -48,14 +46,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         }
 
         navView.setNavigationItemSelectedListener(this)
-
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Go to Bioskop Location Feature", Snackbar.LENGTH_LONG)
-                .setAction("Action", null)
-                .show()
-            val uri = Uri.parse("bioskopmovie://maps")
-            startActivity(Intent(Intent.ACTION_VIEW, uri))
-        }
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
